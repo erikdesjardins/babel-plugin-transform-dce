@@ -8,6 +8,10 @@ script:
   - npm run build
 after_success:
   - './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'
+branches:
+  only:
+    - master
+    - /^v[0-9]/
 deploy:
   provider: npm
   email: 'public@erikdesjardins.io'
