@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/erikdesjardins/babel-plugin-transform-dead-code-elimination#readme",
   "devDependencies": {
-    "ava": "^0.15.2",
+    "ava": "^0.16.0",
     "babel-cli": "^6.11.4",
     "babel-core": "^6.13.2",
     "babel-plugin-syntax-decorators": "^6.13.0",
@@ -33,9 +33,9 @@
     "babel-preset-es2015": "^6.13.2",
     "coveralls": "^2.11.8",
     "cross-env": "^1.0.7",
-    "globby": "^5.0.0",
+    "globby": "^6.1.0",
     "mz": "^2.3.1",
-    "nyc": "^6.6.1",
+    "nyc": "^9.0.1",
     "rimraf": "^2.5.2"
   },
   "dependencies": {

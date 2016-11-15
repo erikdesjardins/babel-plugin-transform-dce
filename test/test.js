@@ -32,8 +32,8 @@ globby.sync(path.join(__dirname, 'fixtures/*')).forEach(dir => {
 			transform(dir)
 		])).map(normalize);
 
-		t.ok(expected);
-		t.ok(transformed);
+		t.truthy(expected);
+		t.truthy(transformed);
 		t.is(expected, transformed);
 	});
 });
