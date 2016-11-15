@@ -80,7 +80,11 @@ export default function () {
         // binding might never be read (have no references) yet still be written to
         // so replace all constantViolations (assignments) with the assigned value
         for (const path of binding.constantViolations) {
-          path.replaceWith(path.node.right);
+          // constantViolations that aren't assignments should be duplicate function or var declarations
+          // which will be removed when this visitor gets to them a second time
+          if (t.isAssignmentExpression(path)) {
+            path.replaceWith(path.node.right);
+          }
         }
       }
     },
