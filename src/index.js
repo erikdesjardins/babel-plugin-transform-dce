@@ -2,7 +2,7 @@ import * as t from "babel-types";
 
 export default function () {
   function toStatements(node) {
-    if (t.isBlockStatement(node)) {
+     if (t.isBlockStatement(node)) {
       var hasBlockScoped = false;
 
       for (var i = 0; i < node.body.length; i++) {
