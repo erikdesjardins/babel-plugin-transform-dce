@@ -1,4 +1,4 @@
-# babel-plugin-transform-dead-code-elimination [![Build Status](https://travis-ci.org/erikdesjardins/babel-plugin-transform-dead-code-elimination.svg?branch=master)](https://travis-ci.org/erikdesjardins/babel-plugin-transform-dead-code-elimination) [![Coverage Status](https://coveralls.io/repos/github/erikdesjardins/babel-plugin-transform-dead-code-elimination/badge.svg?branch=master)](https://coveralls.io/github/erikdesjardins/babel-plugin-transform-dead-code-elimination?branch=master)
+# babel-plugin-transform-dead-code-elimination
 
 
 Babel 6 fork of babel-plugin-dead-code-elimination.
